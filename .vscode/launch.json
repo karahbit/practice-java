@@ -2,6 +2,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Array",
+            "request": "launch",
+            "mainClass": "Array"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Array",
+            "request": "launch",
+            "mainClass": "Data_Structures.arrays.Array"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - HelloWorld",
             "request": "launch",
             "cwd": "${workspaceFolder}",

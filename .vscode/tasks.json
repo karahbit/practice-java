@@ -13,7 +13,7 @@
     "tasks": [
         {
             "label": "Build",
-            "args": ["-g", "-d", "${workspaceRoot}/bin", "${workspaceRoot}/src/*.java"],
+            "args": ["-g", "-d", "${fileDirname}/../bin", "${fileDirname}/*.java"],
             "command": "javac"
         },
         {
